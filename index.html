@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <title>TEAM2FLY</title>
+  </head>
+
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="topNav">
+      <div class="navBar" id="myNavbar">
+        <a href="#hero">
+          <i class="ri-instance-fill" style="font-size: 30px"></i> LOGO</a
+        >
+        <!-- Right-sided navbar links -->
+        <div class="navlink">
+          <a href="#about" class="nav-item padding-10">ABOUT</a>
+          <a href="#team" class="nav-item padding-10"
+            ><i class="ri-user-3-fill"></i> TEAM</a
+          >
+          <a href="#work" class="nav-item padding-10"
+            ><i class="ri-numbers-fill"></i> WORK</a
+          >
+          <a href="#pricing" class="nav-item padding-10"
+            ><i class="ri-money-dollar-circle-fill"></i> PRICING</a
+          >
+          <a href="#contact" class="nav-item padding-10"
+            ><i class="ri-mail-fill"></i> CONTACT</a
+          >
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+        <a href="javascript:void(0)" class="menu-icon" onclick="openNav()">
+          <i class="ri-menu-fill"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="sidenav" id="mySidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        ><i class="ri-close-line"></i
+      ></a>
+      <a href="#about" class="padding-10" onclick="closeNav()">ABOUT</a>
+      <a href="#team" class="padding-10" onclick="closeNav()">TEAM</a>
+      <a href="#work" class="padding-10" onclick="closeNav()">WORK</a>
+      <a href="#pricing" class="padding-10" onclick="closeNav()">PRICING</a>
+      <a href="#contact" class="padding-10" onclick="closeNav()">CONTACT</a>
+    </nav>
+
+    <!-- Header with full-height image -->
+    <header class="hero" id="hero">
+      <div class="hero-text dark-theme">
+        <h1 style="font-size: 50px">Start something that matters</h1>
+        <p>Stop wasting valuable time with projects that just isn't you.</p>
+        <a href="#about" class="link-btn-dark">Learn more</a>
+        <div class="icons-group">
+          <i class="ri-facebook-box-fill icon-dark"></i>
+          <i class="ri-instagram-line icon-dark"></i>
+          <i class="ri-snapchat-line icon-dark"></i>
+          <i class="ri-pinterest-line icon-dark"></i>
+          <i class="ri-twitter-line icon-dark"></i>
+          <i class="ri-linkedin-fill icon-dark"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <div
+      class="about light-theme center"
+      style="padding: 128px 16px"
+      id="about"
+    >
+      <div>
+        <h3>ABOUT THE COMPANY</h3>
+        <p class="text-18">Key features of our company</p>
+      </div>
+
+      <div class="flex-container" style="margin-top: 64px">
+        <div class="card">
+          <i class="fa fa-desktop jumbo"></i>
+          <p class="text-18">Responsive</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa fa-heart jumbo"></i>
+          <p class="text-18">Passion</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa fa-diamond jumbo"></i>
+          <p class="text-18">Design</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa fa-cog jumbo"></i>
+          <p class="text-18">Support</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Promo Section - "We know design" -->
+    <div class="light-grey-theme" style="padding: 128px 16px">
+      <div class="flex-container">
+        <div class="align-left margin-6">
+          <h3>We know design.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore.
+          </p>
+          <p class="align-left">
+            <a href="#work" class="link-btn-light"
+              ><i class="ri-numbers-fill"></i> View Our Works</a
+            >
+          </p>
+        </div>
+        <div class="align-left margin-6">
+          <img
+            class="my-img img-round-large"
+            src="https://c1.peakpx.com/wallpaper/475/56/1000/architecture-building-infrastructure-phone-wallpaper-preview.jpg"
+            alt="Buildings"
+            width="700"
+            height="394"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="light-theme" style="padding: 128px 16px" id="team">
+      <div class="center">
+        <h3>THE TEAM</h3>
+        <p class="text-18">The ones who runs this company</p>
+      </div>
+
+      <div class="flex-container-wrap" style="margin-top: 64px">
+        <div class="card">
+          <img class="my-img" src="./images/quan.jpg" alt="John" />
+          <div>
+            <h3>Anh Quan</h3>
+            <p class="w3-opacity">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum.</p>
+            <p class="align-left">
+              <a
+                href="https://quandoan21-legion.github.io/myportfolio/"
+                target="_blank"
+                class="link-btn-light"
+                >View Profile</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="my-img" src="./images/bao.png" alt="John" />
+          <div>
+            <h3>Manh Bao</h3>
+            <p class="w3-opacity">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum.</p>
+            <p class="align-left">
+              <a
+                href="https://baohm88.github.io/portfolio/"
+                target="_blank"
+                class="link-btn-light"
+                >View Profile</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="my-img" src="./images/lam.png" alt="John" />
+          <div>
+            <h3>Tung Lam</h3>
+            <p class="w3-opacity">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum.</p>
+            <p class="align-left">
+              <a href="#" class="link-btn-light">View Profile</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="my-img" src="./images/tim cook.png" alt="John" />
+          <div>
+            <h3>Van Duc</h3>
+            <p class="w3-opacity">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum.</p>
+            <p class="align-left">
+              <a href="#" class="link-btn-light">View Profile</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="my-img" src="./images/minh.png" alt="John" />
+          <div>
+            <h3>Cong Minh</h3>
+            <p class="w3-opacity">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum.</p>
+            <p class="align-left">
+              <a href="#" class="link-btn-light">View Profile</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Promo Section "Statistics" -->
+    <div class="flex-container center dark-theme">
+      <div class="quarter">
+        <span class="jumbo">14+</span>
+        <br />Partners
+      </div>
+      <div class="quarter">
+        <span class="jumbo">55+</span>
+        <br />Projects Done
+      </div>
+      <div class="quarter">
+        <span class="jumbo">89+</span>
+        <br />Happy Clients
+      </div>
+      <div class="quarter">
+        <span class="jumbo">150+</span>
+        <br />Meetings
+      </div>
+    </div>
+
+    <!-- Work Section -->
+    <div class="center light-theme" style="padding: 128px 16px" id="work">
+      <div class="center">
+        <h3>OUR WORK</h3>
+        <p class="text-18">What we've done for people</p>
+      </div>
+
+      <div class="flex-container-wrap" style="margin-top: 64px">
+        <div class="quarter">
+          <img
+            src="./images/mic.jpeg"
+            class="my-img img-round-large"
+            alt="A microphone"
+          />
+        </div>
+
+        <div class="quarter">
+          <img
+            src="./images/iphone.jpeg"
+            class="my-img img-round-large"
+            alt="A Iphone"
+          />
+        </div>
+
+        <div class="quarter">
+          <img
+            src="./images/drone.webp"
+            class="my-img img-round-large"
+            alt="A drone"
+          />
+        </div>
+        <div class="quarter">
+          <img
+            src="./images/speaker.jpeg"
+            class="my-img img-round-large"
+            alt="Soundbox"
+          />
+        </div>
+
+        <div class="quarter">
+          <img
+            src="./images/tablet.jpeg"
+            class="my-img img-round-large"
+            alt="A tablet"
+          />
+        </div>
+        <div class="quarter">
+          <img
+            src="./images/camera.jpeg"
+            class="my-img img-round-large"
+            alt="A camera"
+          />
+        </div>
+
+        <div class="quarter">
+          <img
+            src="./images/typewriter.webp"
+            class="my-img img-round-large"
+            alt="A typewriter"
+          />
+        </div>
+        <div class="quarter">
+          <img
+            src="./images/ghitar.jpeg"
+            class="my-img img-round-large"
+            alt="A ghitar"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="flex-container light-grey-theme padding-64">
+      <div class="half padding-10">
+        <h3>Our Skills.</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore.
+        </p>
+      </div>
+      <div class="half padding-10">
+        <p class="wide-spacing"><i class="ri-html5-fill"></i> HTML5</p>
+        <div class="grey-theme progress-bar">
+          <div class="dark-theme center progress-bar" style="width: 90%">
+            90%
+          </div>
+        </div>
+        <p class="wide-spacing"><i class="ri-css3-fill"></i> CSS</p>
+        <div class="grey-theme progress-bar">
+          <div class="dark-theme center progress-bar" style="width: 85%">
+            85%
+          </div>
+        </div>
+        <p class="wide-spacing">
+          <i class="ri-javascript-fill"></i> JAVASCRIPT
+        </p>
+        <div class="grey-theme progress-bar">
+          <div class="dark-theme center progress-bar" style="width: 75%">
+            75%
+          </div>
+        </div>
+
+        <p class="wide-spacing"><i class="ri-java-line"></i> JAVA</p>
+        <div class="grey-theme progress-bar">
+          <div class="dark-theme center progress-bar" style="width: 90%">
+            75%
+          </div>
+        </div>
+
+        <p class="wide-spacing"><i class="ri-reactjs-line"></i> REACT.JS</p>
+        <div class="grey-theme progress-bar">
+          <div class="dark-theme center progress-bar" style="width: 80%">
+            75%
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <div class="grey-theme center padding-64" id="pricing">
+      <h3>PRICING</h3>
+      <p class="text-18">Choose a pricing plan that fits your needs.</p>
+      <div class="flex-container" style="margin-top: 64px">
+        <div class="third w3-section">
+          <ul class="my-ul light-theme w3-hover-shadow">
+            <li class="dark-theme w3-xlarge padding-32">Basic</li>
+            <li class="padding-16"><b>10GB</b> Storage</li>
+            <li class="padding-16"><b>10</b> Emails</li>
+            <li class="padding-16"><b>10</b> Domains</li>
+            <li class="padding-16"><b>Endless</b> Support</li>
+            <li class="padding-16">
+              <h2 class="wide-spacing">$ 10</h2>
+              <span class="my-opacity">per month</span>
+            </li>
+            <li class="light-grey-theme padding-24">
+              <a href="#" class="link-btn-light">Sign up</a>
+            </li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul class="my-ul light-theme w3-hover-shadow">
+            <li class="red-theme w3-xlarge padding-48">Pro</li>
+            <li class="padding-16"><b>25GB</b> Storage</li>
+            <li class="padding-16"><b>25</b> Emails</li>
+            <li class="padding-16"><b>25</b> Domains</li>
+            <li class="padding-16"><b>Endless</b> Support</li>
+            <li class="padding-16">
+              <h2 class="wide-spacing">$ 25</h2>
+              <span class="my-opacity">per month</span>
+            </li>
+            <li class="light-grey-theme padding-24">
+              <a href="#" class="link-btn-light">Sign up</a>
+            </li>
+          </ul>
+        </div>
+        <div class="third w3-section">
+          <ul class="my-ul light-theme w3-hover-shadow">
+            <li class="dark-theme w3-xlarge padding-32">Premium</li>
+            <li class="padding-16"><b>50GB</b> Storage</li>
+            <li class="padding-16"><b>50</b> Emails</li>
+            <li class="padding-16"><b>50</b> Domains</li>
+            <li class="padding-16"><b>Endless</b> Support</li>
+            <li class="padding-16">
+              <h2 class="wide-spacing">$ 50</h2>
+              <span class="my-opacity">per month</span>
+            </li>
+            <li class="light-grey-theme padding-24">
+              <a href="#" class="link-btn-light">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="light-theme padding-64" id="contact">
+      <div class="center">
+        <h3>CONTACT</h3>
+        <p class="text-18">Lets get in touch. Send us a message:</p>
+      </div>
+
+      <div class="flex-container">
+        <div class="half padding-10">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.104268130396!2d105.77910637636273!3d21.028513580620764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b329f9e59f%3A0xb013124dd37ad2a6!2zU-G7kSA4IFTDtG4gVGjhuqV0IFRodXnhur90LCBN4bu5IMSQw6xuaCwgVOG7qyBMacOqbSwgSMOgIE7hu5lpLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1718985275391!5m2!1sen!2s"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            class="card"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="half padding-10">
+          <!-- contact details -->
+
+          <form autocomplete="off">
+            <div class="flex-container">
+              <p class="half margin-6">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  required
+                  name="name"
+                  id="name"
+                  autofocus
+                />
+              </p>
+
+              <p class="half margin-6">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  required
+                  name="email"
+                  id="email"
+                />
+              </p>
+            </div>
+
+            <p class="margin-6">
+              <input
+                type="text"
+                placeholder="Subject"
+                required
+                name="subject"
+                id="subject"
+              />
+            </p>
+            <p class="margin-6">
+              <textarea
+                name="Message"
+                id="message"
+                placeholder="Message"
+                rows="5"
+                required
+              ></textarea>
+            </p>
+            <p>
+              <button
+                class="margin-6 link-btn-light"
+                type="submit"
+                id="submit-btn"
+              >
+                Send Message <i class="ri-send-plane-fill"></i>
+              </button>
+            </p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Image of location/map -->
+    </div>
+    <hr />
+    <!-- Footer -->
+    <footer class="center padding-6">
+      <a href="#hero" class="link-btn-light"
+        ><i class="ri-arrow-up-line"></i> To the top</a
+      >
+      <div class="padding-6">
+        <i class="ri-facebook-box-fill icon-light"></i>
+        <i class="ri-instagram-line icon-light"></i>
+        <i class="ri-snapchat-line icon-light"></i>
+        <i class="ri-pinterest-line icon-light"></i>
+        <i class="ri-twitter-line icon-light"></i>
+        <i class="ri-linkedin-fill icon-light"></i>
+      </div>
+      <p>Copyright @ 2024</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
